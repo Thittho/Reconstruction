@@ -17,6 +17,8 @@ If minimize is set to true, the coefficients of the ternary quartic are minimize
 
     if Characteristic(Universe(inv)) in {2, 3, 5, 7, 17} then "Not implemented for char 2, 3, 5, 7 or 17 "; return 0; end if;
 
+    if Characteristic(Universe(inv)) in {19, 47, 277, 523} then inv[3] +:= inv[4]; end if;
+    
     M := Matrix([[P11(inv), P12(inv), P13(inv)],
                  [P21(inv), P22(inv), P23(inv)],
                  [P31(inv), P32(inv), P33(inv)]]);
