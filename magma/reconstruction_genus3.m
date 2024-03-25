@@ -4,9 +4,9 @@ function DOBis(f)
     return inv;
 end function;
 
-load "decompo.m";
+import "decompo_g3_nonhyp_14_171_172.m" : P11,P12,P13,P21,P22,P23,P31,P32,P33,P1111,P1112,P1113,P1122,P1123,P1133,P1222,P1223,P1233,P1333,P2222,P2223,P2233,P2333,P3333;
 
-intrinsic ReconstructionFromDixmierOhnoBis(inv::SeqEnum : 
+intrinsic ReconstructionGenus3(inv::SeqEnum : 
     minimize := false) -> RngMPolElt
 {
 Reconstruct a ternary quartic from a generic tuple of Dixmier-Ohno invariants. 
@@ -56,4 +56,4 @@ If minimize is set to true, the coefficients of the ternary quartic are minimize
     "Not a basis, not implemented yet.";
     
     return 0;
-end function;
+end intrinsic;
