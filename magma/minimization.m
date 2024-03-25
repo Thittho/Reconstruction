@@ -179,8 +179,8 @@ function MinimizeReduceQuadric(Q)
 	end if;
 end function;
 
-intrinsic MinimizeG4(Q::RngMPolElt, Gamma::RngMPolElt) 
-{Given a non-hyperelliptic genus 4 curve given as the locus of a homogeneous quadratic form Q and a homogeneous cubic form Gamma in 4 variables over Q or Z, returns a model with smaller coefficients}  -> RngMPolElt, RngMPolElt
+intrinsic MinimizeG4(Q::RngMPolElt, Gamma::RngMPolElt) -> RngMPolElt, RngMPolElt
+{Given a non-hyperelliptic genus 4 curve given as the locus of a homogeneous quadratic form Q and a homogeneous cubic form Gamma in 4 variables over Q or Z, returns a model with smaller coefficients}
 	P3 := ProjectiveSpace(Rationals(), 3);
 	R4<X,Y,Z,T> := CoordinateRing(P3);
 	Q := R4!Evaluate(Q, [X,Y,Z,T]);
