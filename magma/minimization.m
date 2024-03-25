@@ -1,3 +1,7 @@
+/* 
+* Developped with Andreas Pieper (https://andreas-pieper.github.io/)
+*/
+
 function Hessian(f)
 	R := Parent(f);
 	return Determinant(Matrix([[Derivative(Derivative(f, 1, i), 1, j) : j in [1..Rank(R)]] : i in [1..Rank(R)]]));
@@ -233,8 +237,8 @@ intrinsic MinimizeG4(Q::RngMPolElt, Gamma::RngMPolElt) -> RngMPolElt, RngMPolElt
 		if inv ne 0 then
 			// Minimization of the cubic
 			l_p := [l[1] : l in Factorization(Numerator(inv)) cat Factorization(Denominator(inv))];
-		inv;
-		l_p;
+		//inv;
+		//l_p;
 
 		for p in l_p do
 			Gamma1, S := MinimizeCubicSurface(Gamma1, p);

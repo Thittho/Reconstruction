@@ -1,2 +1,0 @@
-177,0
-S,ReconstructionGenus4,"Given a generic tuple of invariants for non-hyperelliptic curves of genus 4, returns a degree 2 polynomial Q and a degree 3 polynomial E in 4 variables, such that V(Q,E) is a non-hyp genus 4 curve with said invariants (up to scaling). Both cases rank 3 and 4 are covered. If minimize is set to true, the returned forms Q, E are transformed as to have smaller coefficients",0,1,0,0,0,0,0,0,0,82,,63,63,-38,-38,-38,-38
