@@ -52,4 +52,4 @@ If this code was helpful to your research, please cite the following preprint:
 
 Credits
 --
-The skeleton of this README.md file is copied from [https://github.com/JRSijsling/quartic](https://github.com/JRSijsling/quartic/blob/main/README.md).
+The skeleton of this README.md file was copied from [https://github.com/JRSijsling/quartic/blob/main/README.md)](https://github.com/JRSijsling/quartic/blob/main/README.md).
