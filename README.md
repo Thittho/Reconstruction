@@ -49,3 +49,7 @@ IsIsomorphicTernaryQuartics(F,R!G);
 Citing this work
 --
 If this code was helpful to your research, please cite the following preprint:
+
+Credits
+--
+The skeleton of this README.md file is copied from [https://github.com/JRSijsling/quartic](https://github.com/JRSijsling/quartic/blob/main/README.md).
