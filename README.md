@@ -3,7 +3,7 @@ Description
 This repository contains Magma code for reconstructing non-hyperelliptic genus 4 curves as the locus of a quadratic and cubic form in P^3.
 A direct method for the reconstruction of non-hyperelliptic genus 3 curves is also provided.
 
-The file minimization.m contains a routine that reduces the size of non-hyperelliptic curves of genus 4 given by a quadratic and cubic form with integer or rational coefficients. 
+The file minimization.m contains a routine that reduces the size of non-hyperelliptic curves of genus 4 given by a quadratic and cubic form with integer or rational coefficients. It was developped jointly with Andreas Pieper.
 
 Prerequisites
 --
